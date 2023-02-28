@@ -3,5 +3,5 @@ on:
   workflow_dispatch:
 jobs:
   codeql-scanner:
-    uses: sherwin-williams-co/darwin-actions-repo/blob/main/.github/workflows/darwin-codeql-scan.yaml@main
+    uses: sherwin-williams-co/darwin-actions-repo/blob/main/.github/workflows/darwin-codeql-scan.yaml
     secrets: inherit
